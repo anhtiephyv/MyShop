@@ -1,0 +1,13 @@
+D:\AspProject\MyShop\MyShop\obj\Debug\Data.Migrations.createdb.resources
+D:\AspProject\MyShop\MyShop\obj\Debug\MyShop.Properties.Resources.resources
+D:\AspProject\MyShop\MyShop\obj\Debug\Data.csproj.GenerateResource.Cache
+D:\AspProject\MyShop\MyShop\bin\Debug\MyShop.dll.config
+D:\AspProject\MyShop\MyShop\bin\Debug\MyShop.dll
+D:\AspProject\MyShop\MyShop\bin\Debug\MyShop.pdb
+D:\AspProject\MyShop\MyShop\bin\Debug\EntityFramework.dll
+D:\AspProject\MyShop\MyShop\bin\Debug\EntityFramework.SqlServer.dll
+D:\AspProject\MyShop\MyShop\bin\Debug\EntityFramework.xml
+D:\AspProject\MyShop\MyShop\bin\Debug\EntityFramework.SqlServer.xml
+D:\AspProject\MyShop\MyShop\obj\Debug\Data.csprojResolveAssemblyReference.cache
+D:\AspProject\MyShop\MyShop\obj\Debug\MyShop.dll
+D:\AspProject\MyShop\MyShop\obj\Debug\MyShop.pdb
