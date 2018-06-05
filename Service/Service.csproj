@@ -54,10 +54,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Base\Class1.cs" />
     <Compile Include="Base\GenericRepository.cs" />
+    <Compile Include="Base\IGenericRepository.cs" />
     <Compile Include="Base\UnitOfWork .cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service\AdminService.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

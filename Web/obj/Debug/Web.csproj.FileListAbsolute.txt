@@ -59,3 +59,7 @@ D:\AspProject\MyShop\Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\AspProject\MyShop\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
 D:\AspProject\MyShop\Web\obj\Debug\Web.dll
 D:\AspProject\MyShop\Web\obj\Debug\Web.pdb
+D:\AspProject\MyShop\Web\bin\MyShop.dll
+D:\AspProject\MyShop\Web\bin\Service.dll
+D:\AspProject\MyShop\Web\bin\MyShop.pdb
+D:\AspProject\MyShop\Web\bin\Service.pdb

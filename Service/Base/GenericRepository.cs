@@ -5,11 +5,10 @@ using System.Web;
 using Data.Models;
 using Data.DBContext;
 using System.Data.Entity;
-using System.Data.Entity;
 using System.Linq.Expressions;
 namespace Service.Base
 {
-    public class GenericRepository<TEntity> where TEntity : class
+    public  class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
     {
         //Class variables are declared for the database context and for the entity set that the repository is instantiated for
         internal MyShopDBContext context;

@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
-
+using Data.Models;
+using Service.Service;
+using Service.Base;
 namespace Web
 {
     public static class WebApiConfig
