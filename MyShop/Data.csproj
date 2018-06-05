@@ -54,6 +54,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Repository\AdminRepository.cs" />
+    <Compile Include="Base\GenericRepository.cs" />
+    <Compile Include="Base\IGenericRepository.cs" />
+    <Compile Include="Base\IUnitOfWork.cs" />
+    <Compile Include="Base\UnitOfWork .cs" />
     <Compile Include="DBContext\MyShopDBContext.cs" />
     <Compile Include="Migrations\201806030646255_create-db.cs" />
     <Compile Include="Migrations\201806030646255_create-db.Designer.cs">

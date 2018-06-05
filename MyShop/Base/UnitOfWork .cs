@@ -5,9 +5,9 @@ using System.Web;
 using System.Data.Entity;
 using Data.DBContext;
 using Data.Models;
-namespace Service.Base
+namespace Data.Base
 {
-    public class UnitOfWork: IDisposable
+    public class UnitOfWork: IUnitOfWork
     {
         private MyShopDBContext context = new MyShopDBContext();
         private GenericRepository<Admin> adminRepository;
@@ -24,6 +24,7 @@ namespace Service.Base
                 }
                 return adminRepository;
             }
+
         }
 
         public GenericRepository<Category> CategoryRepository
@@ -38,7 +39,9 @@ namespace Service.Base
                 return categoryRepository;
             }
         }
-
+        public MyShopDBContext Init(){
+            return context ?? (context = new MyShopDBContext());
+        }
         public void Save()
         {
             context.SaveChanges();

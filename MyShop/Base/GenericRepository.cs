@@ -6,9 +6,9 @@ using Data.Models;
 using Data.DBContext;
 using System.Data.Entity;
 using System.Linq.Expressions;
-namespace Service.Base
+namespace Data.Base
 {
-    public  class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
+    public class GenericRepository<TEntity> : IGenericRepository<TEntity> where TEntity : class
     {
         //Class variables are declared for the database context and for the entity set that the repository is instantiated for
         internal MyShopDBContext context;
@@ -18,6 +18,15 @@ namespace Service.Base
         {
             this.context = context;
             this.dbSet = context.Set<TEntity>();
+        }
+        protected IUnitOfWork UnitOfWork
+        {
+            get;
+            private set;
+        }
+        protected MyShopDBContext DbContext
+        {
+            get { return context ?? (context = UnitOfWork.Init()); }
         }
         //The Get method uses lambda expressions to allow the calling code to specify a filter condition and a column to order the results by, and a string parameter lets the caller provide a comma-delimited list of navigation properties for eager loading
         public virtual IEnumerable<TEntity> Get(

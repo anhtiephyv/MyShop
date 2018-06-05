@@ -17,8 +17,10 @@ D:\AspProject\MyShop\Web\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
 D:\AspProject\MyShop\Web\bin\Microsoft.Owin.Security.OAuth.dll
 D:\AspProject\MyShop\Web\bin\Microsoft.Owin.Security.Twitter.dll
 D:\AspProject\MyShop\Web\bin\Microsoft.Web.Infrastructure.dll
+D:\AspProject\MyShop\Web\bin\MyShop.dll
 D:\AspProject\MyShop\Web\bin\Newtonsoft.Json.dll
 D:\AspProject\MyShop\Web\bin\Owin.dll
+D:\AspProject\MyShop\Web\bin\Service.dll
 D:\AspProject\MyShop\Web\bin\System.Net.Http.Formatting.dll
 D:\AspProject\MyShop\Web\bin\System.Web.Helpers.dll
 D:\AspProject\MyShop\Web\bin\System.Web.Http.dll
@@ -30,6 +32,8 @@ D:\AspProject\MyShop\Web\bin\System.Web.WebPages.Deployment.dll
 D:\AspProject\MyShop\Web\bin\System.Web.WebPages.dll
 D:\AspProject\MyShop\Web\bin\System.Web.WebPages.Razor.dll
 D:\AspProject\MyShop\Web\bin\WebGrease.dll
+D:\AspProject\MyShop\Web\bin\MyShop.pdb
+D:\AspProject\MyShop\Web\bin\Service.pdb
 D:\AspProject\MyShop\Web\bin\System.Web.Helpers.xml
 D:\AspProject\MyShop\Web\bin\System.Web.Mvc.xml
 D:\AspProject\MyShop\Web\bin\System.Web.Optimization.xml
@@ -59,7 +63,3 @@ D:\AspProject\MyShop\Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\AspProject\MyShop\Web\obj\Debug\Web.csprojResolveAssemblyReference.cache
 D:\AspProject\MyShop\Web\obj\Debug\Web.dll
 D:\AspProject\MyShop\Web\obj\Debug\Web.pdb
-D:\AspProject\MyShop\Web\bin\MyShop.dll
-D:\AspProject\MyShop\Web\bin\Service.dll
-D:\AspProject\MyShop\Web\bin\MyShop.pdb
-D:\AspProject\MyShop\Web\bin\Service.pdb

@@ -5,25 +5,21 @@ using System.Web;
 using System.Web.Mvc;
 using Data.Models;
 using Service.Service;
-using Service.Base;
+using Data.Base;
 namespace Web.Controllers
 {
     public class HomeController : Controller
-    {   private IAdminService _adminRepository;
+    {
+        private AdminService _adminRepository = new AdminService();
         private IDisposable _unitOfWork;
         private UnitOfWork BigunitOfWork = new UnitOfWork();
-     //   private AdminService AdminService = new AdminService();
+     //  private AdminService AdminService = new AdminService();
         public HomeController() { }
-        public HomeController(IAdminService adminRepository,
-            IDisposable unitOfWork)
-        {
-            this._adminRepository = adminRepository;
-            this._unitOfWork = unitOfWork;
-        }
+       
         public ActionResult Index()
-        
         {
-            var check = BigunitOfWork.AdminRepository.Get().ToList();
+            var check2 = BigunitOfWork.AdminRepository.Get().ToList();
+            var check = _adminRepository.GetAll().ToList();
             return View();
         }
 

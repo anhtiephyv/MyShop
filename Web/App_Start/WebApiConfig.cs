@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web.Http;
 using Data.Models;
 using Service.Service;
-using Service.Base;
+using Data.Base;
 namespace Web
 {
     public static class WebApiConfig
